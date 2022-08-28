@@ -1,7 +1,8 @@
 # Neos PMON
 A simple performance monitor for headless [Neos](https://neos.com/) servers, based on my [PMON](https://github.com/JanoschABR/pmon) project.
 
-*Note: Because of how PMON is designed, this will only work on a Linux machine. See PMON's README.md for more info.*
+*Note: Because of how PMON is designed, this will only work on a Linux machine.  
+See PMON's README.md for more info.*
 
 ## Overview
 I made Neos-PMON for my own use with my own headless server.  
