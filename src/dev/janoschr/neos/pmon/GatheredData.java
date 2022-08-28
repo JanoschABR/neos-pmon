@@ -18,7 +18,7 @@ public class GatheredData {
                 vmStat.cpuTimeSystem,
                 memInfo.getTotalMemory(),
                 memInfo.getUsedMemory(),
-                Utils.stringifyPeriod(uptime.getTimeSinceStartup()).replace(",", "%44")
+                Utils.stringifyDateTime(uptime.since.toDateTime())
         );
     }
 }
