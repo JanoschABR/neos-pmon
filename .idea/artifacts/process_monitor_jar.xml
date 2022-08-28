@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="process-monitor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/process_monitor_jar</output-path>
+    <root id="archive" name="process-monitor.jar">
+      <element id="module-output" name="pmon" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/joda-time/joda-time/2.11.1/joda-time-2.11.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
