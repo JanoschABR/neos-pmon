@@ -27,7 +27,7 @@ public class NeosServer extends WebSocketServer {
             };
 
             ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
-            executor.scheduleAtFixedRate(refresh, 0, 1, TimeUnit.SECONDS);
+            executor.scheduleAtFixedRate(refresh, 0, 4, TimeUnit.SECONDS);
         });
 
         threads.put(webSocket, thread);
