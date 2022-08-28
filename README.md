@@ -21,6 +21,9 @@ The numbers are as following:
   * Total memory (estimated, in bytes)
   * Used memory (estimated, in bytes)
 
+## In-Game Example
+![Screenshot](https://github.com/JanoschABR/neos-pmon/blob/main/example.png)
+
 ## Dependencies
 Following Maven dependencies are required for building:
 * `joda-time:joda-time:2.10.14`
