@@ -11,8 +11,8 @@ It uses PMON to read information about the host machine and sends it to Neos usi
 ## Message Structure
 *The WebSocket will be hosted on port `19420`*
 
-The WebSocket messages consist of some numbers, followed by the uptime:  
-`[12;2;17179869184;876123123],0 weeks%44 0 days%44 4:12:37`
+The WebSocket messages consist of some numbers, followed by the DateTime the server started up:  
+`[12;2;17179869184;876123123],2022-08-28 08:35:21`
 
 The numbers are formatted specifically so they can be easily parsed using the [Parse Int4](https://wiki.neosvr.com/Parse_Int4_(LogiX_node)) node.  
 The numbers are as following:
