@@ -14,7 +14,7 @@ It uses PMON to read information about the host machine and sends it to Neos usi
 The WebSocket messages consist of some numbers, followed by the DateTime the server started up:  
 `[12;2;17179869184;876123123],2022-08-28 08:35:21`
 
-The numbers are formatted specifically so they can be easily parsed using the [Parse Int4](https://wiki.neosvr.com/Parse_Int4_(LogiX_node)) node.  
+The numbers are formatted specifically so they can be easily parsed using the [Parse Long4](https://wiki.neosvr.com/Parse_Long4_(LogiX_node)) node.  
 The numbers are as following:
   * User CPU usage (in %)
   * System CPU usage (in %)
