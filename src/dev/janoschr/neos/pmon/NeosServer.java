@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class NeosServer extends WebSocketServer {
 
-    public static String message = "Waiting for PMON to start...";
+    public static String message = "";
     protected static HashMap<WebSocket, Thread> threads = new HashMap<>();
 
     public NeosServer (InetSocketAddress addr) {
